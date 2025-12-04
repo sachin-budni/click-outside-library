@@ -3,6 +3,11 @@
 {
   "compileOnSave": false,
   "compilerOptions": {
+    "paths": {
+      "click-outside": [
+        "./dist/click-outside"
+      ]
+    },
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -22,5 +27,19 @@
     "typeCheckHostBindings": true,
     "strictTemplates": true
   },
-  "files": []
+  "files": [],
+  "references": [
+    {
+      "path": "./projects/example/tsconfig.app.json"
+    },
+    {
+      "path": "./projects/example/tsconfig.spec.json"
+    },
+    {
+      "path": "./projects/click-outside/tsconfig.lib.json"
+    },
+    {
+      "path": "./projects/click-outside/tsconfig.spec.json"
+    }
+  ]
 }
